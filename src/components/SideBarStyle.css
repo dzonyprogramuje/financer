@@ -1,0 +1,15 @@
+.sidebar__list {
+  width: 100%;
+}
+
+.sidebar__element {
+  margin-bottom: 10px !important;
+}
+
+.active {
+  background-color: rgb(243, 242, 242) !important;
+}
+
+.sidebar__element:hover {
+  background-color: rgb(235, 235, 235) !important;
+}
