@@ -8,6 +8,7 @@ import Badge from "@material-ui/core/Badge";
 
 import SettingsIcon from "@material-ui/icons/Settings";
 import NotificationsIcon from "@material-ui/icons/Notifications";
+import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
 const BarComponent = () => {
   return (
@@ -26,6 +27,9 @@ const BarComponent = () => {
             <SettingsIcon />
           </IconButton>
           <IconButton>
+            <ExitToAppIcon />
+          </IconButton>
+          <IconButton>
             <Avatar alt="Remy Sharp" src="1.jpg" />
           </IconButton>
         </Right>
@@ -41,7 +45,7 @@ const Bar = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 60px;
+  margin-bottom: 30px;
   box-sizing: border-box;
 `;
 
